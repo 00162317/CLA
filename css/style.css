@@ -1,0 +1,26 @@
+.contentPage{
+    max-width: 900px;
+}
+
+.navMine{
+    background-color: #1d7564;
+}
+
+.contentNav{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.brand{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navown{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transform: none;
+    color: #fff;
+    }
