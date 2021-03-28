@@ -26,8 +26,7 @@
 <body>
 
     <div class="navMine">
-        <nav class="navbar navbar-default navbar-expand-md ms-a"
-        style="background-color: #1d7564;">
+        <nav class="navbar navbar-default navbar-expand-md ms-a" style="background-color: #1d7564;">
             <div class="container-fluid contentNav">
                 <a class="navbar-brand brand" href="#">Superheroes and Villains - Finder</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -47,7 +46,7 @@
 
                     <div>
                         <input class="me-2" type="text" id="buscar_s" aria-label="Search">
-                        <button id="button2" class="btn btn-primary" onclick="getData()">Search</button>
+                        <button id="button2" class="btn btn-primary" onclick="getSearchData()">Search</button>
                     </div>
                 </div>
             </div>
@@ -56,13 +55,23 @@
     <div class="contentPage">
 
         <div>
-            <ul id="test">
+            <ul id="test2">
             </ul>
         </div>
 
+        <div class="container">
+            <div class="row justify-content-md-center text-center">
+                <div class="col-sm">
+                    <div id="test">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="js/script.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>
