@@ -8,7 +8,7 @@ function getId(id) {
 
     let val1 = id;
 
-    location.href = './hero.html?id=' + val1;
+    location.href = './hero?id=' + val1;
     //alert(val1);
 
 }
@@ -16,7 +16,7 @@ function getId(id) {
 function getId2(id) {
     console.log(id);
     let val1 = id;
-    location.href = './fav.html?id=' + val1;
+    location.href = './fav?id=' + val1;
     //alert(val1);
 }
 
