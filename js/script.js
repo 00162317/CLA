@@ -9,7 +9,7 @@ function getId(id) {
     let val1 = id;
 
     location.href = './hero.html?id=' + val1;
-    alert(val1);
+    //alert(val1);
 
 }
 
@@ -17,9 +17,13 @@ function getId2(id) {
     console.log(id);
     let val1 = id;
     location.href = './fav.html?id=' + val1;
-    alert(val1);
+    //alert(val1);
 }
 
+
+window.onload=()=>{
+    
+}
 
 function favHero() {
     const queryString = window.location.search;
@@ -167,7 +171,7 @@ function getSearchData() {
 
             data.results.forEach(e => $('#test')
                 .append(
-                    '<div class="card" style="width: 18rem;">' +
+                    '<div class="card mb-3" style="width: 18rem;">' +
                     '<img src="' + e.image.url + '" class="card-img-top" alt="...">' +
                     '<div class="card-body">' +
                     '<h5 class="card-title">' + e.name + '</h5>' +
@@ -186,6 +190,9 @@ function getSearchData() {
         });
 }
 
+function deleteFav(){
+    window.localStorage.clear();
+}
 
 function getAllHeros() {
     var i, count = 0;
@@ -196,15 +203,20 @@ function getAllHeros() {
         .then(res => res.json())
         .then(data => {
             var texto = data.name;
-            for (var j = 0; j < count; j++) {
-                console.log(j + data.name);
 
+            var datos = {
+                id: data.id,
+                nombre: data.name,
+                imagen: data.image.url
+            };
+
+            for (var j = 0; j < count; j++) {
+                console.log(j+" " + data.name);
+                console.log(datos.id);
                 //document.getElementById('texto').innerHTML=texto;
                 //data.forEach(e=>$('#test2').append('<li>'+e.name+'</li>'));
             }
-            document.getElementById('texto').innerHTML = texto;
-
-
+            document.getElementById('test4').innerHTML = texto;
 
             /*data.results.forEach(e=>$('#test')
             .append('<li>'+e.name+ '</li>' +
@@ -214,8 +226,7 @@ function getAllHeros() {
         })
         .catch(err => {
             console.log(err);
-
             // Displaying to the UI
-            document.getElementById('output').innerHTML = err;
+            document.getElementById('test4').innerHTML = err;
         });
 }
