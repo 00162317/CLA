@@ -55,8 +55,9 @@ Diseñado por [Roberto Hernandez](https://www.linkedin.com/in/roberto-hernandez-
 1. [Node.js](https://nodejs.org/es/about/)
 2. [Express.js](https://expressjs.com/es/)
 3. [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-4. [Html](https://www.w3schools.com/html/)
-5. [CSS3](https://www.w3schools.com/css/)
+4. [jQuery](https://jquery.com)
+5. [Html](https://www.w3schools.com/html/)
+6. [CSS3](https://www.w3schools.com/css/)
 
 ### Terceros
 1. [FontAwesome](https://fontawesome.com)
