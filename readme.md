@@ -1,13 +1,10 @@
-# SuperHero API
+# SuperHero API: ¿Que es SuperHero API? 🦸
 
-## ¿Que es SuperHero API? 🦸
 La API de superhéroes es una fuente de datos cuantificada y accesible mediante programación de todos los superhéroes del universo del cómic. Hemos tomado todas las cosas y las hemos reunido en una forma que es más fácil de consumir con software. Luego creamos una API para que puedas consumirla sin problemas.
 Mas informacion: https://superheroapi.com/index.html
 
 
-# Instalación 🔧
-
-## Descargar repositorio
+# Instalación 🔧: Descargar repositorio
 
 1. En GitHub, visita la página principal del repositorio.
 2. Dar click en boton Code (color verde).
@@ -20,7 +17,7 @@ Mas informacion: https://superheroapi.com/index.html
 
 Nota: Es importante tener instalado [WinRAR](https://www.winrar.es/descargas)
 
-## Instalar dependencias
+# Instalación 🔧: Instalar dependencias
 
 1. Ubicarse en la ruta ...\CLA-master\Hero del proyecto.
 
@@ -48,12 +45,12 @@ http://localhost:3000
 
 Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 
-### Ejecutando las pruebas ⚙️
+# Ejecutando las pruebas ⚙️
 
-### Autores ✒️
+# Autores ✒️
 Diseñado por Roberto Hernandez
 
-### Construido con 🛠️
+#Construido con 🛠️
 1. [Node.js](https://nodejs.org/es/about/)
 2. [Express.js](https://expressjs.com/es/)
 3. [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
