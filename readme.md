@@ -12,7 +12,10 @@ Mas informacion: https://superheroapi.com/index.html
 
 1. En GitHub, visita la página principal del repositorio.
 2. Dar click en boton Code (color verde).
-3. Presionar la opciones "Download ZIP.
+3. Presionar la opciones "Download ZIP. Automaticamente el proyecto se comenzara a descargar.
+
+![](images/image1.png)
+
 4. Ubicar la ubicacion de donde se descargo el proyecto.
 5. Descomprimir el proyecto.
 
@@ -21,13 +24,26 @@ https://www.winrar.es/descargas
 
 ### Instalar dependencias
 
+1. Ubicarse en la ruta ...\CLA-master\Hero del proyecto.
+2. Borrar la ruta, escribir "cmd" y presionar Enter
+3. Escribir el siguiente comando en cmd.exe
+
 ```bash
 npm install
 ```
-
+4. Escribir el siguiente comando en cmd.exe
 ```bash
 npm start
 ```
+5. Ir a un navegador de preferencia y en la ruta, escribir:
+
+http://localhost:3000
+
+6. Si todo salio exitoso, se mostrara la pagina principal.
+
+
+Nota: Es importante tener instalado Node.js
+https://nodejs.org/es/
 
 ### Ejecutando las pruebas ⚙️
 
