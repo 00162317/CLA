@@ -1,7 +1,7 @@
 # SuperHero API: ¿Que es SuperHero API? 🦸
 
 La API de superhéroes es una fuente de datos cuantificada y accesible mediante programación de todos los superhéroes del universo del cómic. Hemos tomado todas las cosas y las hemos reunido en una forma que es más fácil de consumir con software. Luego creamos una API para que puedas consumirla sin problemas.
-Mas informacion: https://superheroapi.com/index.html
+Mas información: https://superheroapi.com/index.html
 
 Proyecto en linea temporalmente: https://superheroapicla.herokuapp.com
 
@@ -9,11 +9,11 @@ Proyecto en linea temporalmente: https://superheroapicla.herokuapp.com
 
 1. En GitHub, visita la página principal del repositorio.
 2. Dar click en boton Code (color verde).
-3. Presionar la opciones "Download ZIP. Automaticamente el proyecto se comenzara a descargar.
+3. Presionar la opciones "Download ZIP. Automáticamente el proyecto se comenzará a descargar.
 
 ![](images/image1.png)
 
-4. Ubicar la ubicacion de donde se descargo el proyecto.
+4. Situarse en la ubicación de donde se descargo el proyecto.
 5. Descomprimir el proyecto.
 
 Nota: Es importante tener instalado [WinRAR](https://www.winrar.es/descargas)
@@ -24,7 +24,7 @@ Nota: Es importante tener instalado [WinRAR](https://www.winrar.es/descargas)
 
 ![](images/image2.png)
 
-2. Borrar la ruta, escribir "cmd" y presionar Enter. Autoamticamente se abrira cmd.exe
+2. Borrar la ruta, escribir "cmd" y presionar Enter. Automáticamente se abrirá cmd.exe
 3. Escribir el siguiente comando en cmd.exe
 
 ```bash
@@ -38,11 +38,11 @@ npm install
 ```bash
 npm start
 ```
-5. Ir a un navegador de preferencia y en la ruta, escribir:
+5. Ir a su navegador de preferencia y en la ruta, escribir:
 
 http://localhost:3000
 
-6. Si todo salio exitoso, se mostrara la pagina principal.
+6. Si todo salió exitoso, se mostrará la pagina principal.
 
 
 Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
