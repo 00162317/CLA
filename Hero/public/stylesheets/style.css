@@ -2,10 +2,29 @@
     max-width: 900px;
 }
 
-.navMine{
-    background-color: #1d7564;
+.containerGrid{
+    display: grid;
+    margin-top: 3.5rem;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
 }
 
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.navMine{
+    background-color: #1d7564;
+
+}
+
+.card{
+    background-color: #06060e;
+    color: white;
+}
 .contentNav{
     margin-left: 3rem;
     margin-right: 3rem;
