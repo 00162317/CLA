@@ -1,36 +1,32 @@
 var valor = document.getElementById('buscar_s');
-document.getElementById('todo');
 
-function getId(id) {
+const getId = (id) => {
     console.log("------")
     console.log(id);
     let val1 = id;
     location.href = './hero?id=' + val1;
 }
 
-function getId2(id) {
+const getId2 = (id) => {
     console.log(id);
     let val1 = id;
     location.href = './fav?id=' + val1;
 
 }
 
-
-function showCardHero(nombreCard, e) {
+const showCardHero = (nombreCard, e) => {
     $(nombreCard).append('<div class="cardMine">' +
-        '<div class="containerCard">'+
+        '<div class="containerCard">' +
         '<img src="' + e.image.url + '" class="cardPicHero" alt="...">' +
         '<h5>' + e.name + '</h5>' +
         '<p>' + e.appearance.gender + '</p>' +
         '<button class="btn btn-primary" onclick="getId(' + e.id + ')" >' + '<i class="fas fa-info-circle"></i>' + '</button>' +
         '<button class="btn btn-primary" onclick="getId2(' + e.id + ')" >' + '<i class="far fa-star"></i>' + '</button>' +
-        '</div>'+
+        '</div>' +
         '</div>');
 }
 
-
-function getSearchData() {
-
+const getSearchData = () => {
     fetch('https://www.superheroapi.com/api.php/3945365972188670/search/' + valor.value)
         .then(res => res.json())
         .then(data => {
@@ -51,13 +47,11 @@ function getSearchData() {
         })
         .catch(err => {
             console.log(err);
-
-            // Displaying to the UI
-            location.href='./error';
+            location.href = './error';
         });
 }
 
-
+/*
 function getAllHeros() {
     var i, count = 0;
     for (i = 0; i < 732; i++) {
@@ -77,20 +71,13 @@ function getAllHeros() {
             for (var j = 0; j < count; j++) {
                 console.log(j + " " + data.name);
                 console.log(datos.id);
-                //document.getElementById('texto').innerHTML=texto;
-                //data.forEach(e=>$('#test2').append('<li>'+e.name+'</li>'));
+
             }
             document.getElementById('test4').innerHTML = texto;
-
-            /*data.results.forEach(e=>$('#test')
-            .append('<li>'+e.name+ '</li>' +
-            '<li>'+e.appearance.gender+ '</li>' +
-            '<li>'+ '<img src="'+e.image.url+'" width="25%">' + '</li>' ));*/
 
         })
         .catch(err => {
             console.log(err);
-            // Displaying to the UI
             document.getElementById('test4').innerHTML = err;
         });
-}
+}*/
