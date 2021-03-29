@@ -25,29 +25,31 @@
 
 <body>
 
-    <div class="navMine">
-        <nav class="navbar navbar-default navbar-expand-md ms-a" style="background-color: #1d7564;">
-            <div class="container-fluid contentNav">
-                <a class="navbar-brand brand" href="/">Superheroes and Villains - Finder</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto pe-5">
-                        <li class="nav-item">
-                            <a class="nav-link active navown" aria-current="page" href="/allHero">Ver todos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active navown" aria-current="page" href="/fav">Favoritos</a>
-                        </li>
-                    </ul>
-
+    <nav class="navbar navbar-expand-lg navbar-light navColor">
+        <div class="containerNav">
+            <a class="navLogo" href="/">Superheroes and Villains - Finder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="navWord" aria-current="page" href="/allHero">Ver todos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navWord" href="/fav">Favoritos</a>
+                    </li>
+                </ul>
+                <div class="formSearch">
+                    
+                    <input class="inputSearch iS2" type="text" id="buscar_s" placeholder="Search" aria-label="Search">
+                    <button id="button2" class="btn btn-primary" onclick="getSearchData()">Search</button>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <div class="contentPage">
         <button id="todo" onclick="getAllHeros()" class="btn btn-primary">Search</button>
     </div>

@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Index</title>
+    <title>Detalles Hero</title>
+
+    <script src="https://kit.fontawesome.com/f2dde07271.js" crossorigin="anonymous"></script>
 
     <!--Boostrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,45 +27,42 @@
 
 <body>
 
-    <div class="navMine">
-        <nav class="navbar navbar-default navbar-expand-md ms-a" style="background-color: #1d7564;">
-            <div class="container-fluid contentNav">
-                <a class="navbar-brand brand" href="/">Superheroes and Villains - Finder</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto pe-5">
-                        <li class="nav-item">
-                            <a class="nav-link active navown" aria-current="page" href="/allHero">Ver todos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active navown" aria-current="page" onclick="favHero()"
-                                href="fav.html">Favoritos</a>
-                        </li>
-                    </ul>
-
+    <nav class="navbar navbar-expand-lg navbar-light navColor">
+        <div class="containerNav">
+            <a class="navLogo" href="/">Superheroes and Villains - Finder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="navWord" aria-current="page" href="/allHero">Ver todos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navWord" href="/fav">Favoritos</a>
+                    </li>
+                </ul>
+                <div class="formSearch">
+                    
+                    <input class="inputSearch iS2" type="text" id="buscar_s" placeholder="Search" aria-label="Search">
+                    <button id="button2" class="btn btn-primary" onclick="getSearchData()">Search</button>
                 </div>
             </div>
-        </nav>
-    </div>
-    <div class="">
-        <div>
-            <!--<button id="button2" class="btn btn-primary" onclick="OneHero()">Search</button>-->
-            <div id="test2">
-            </div>
         </div>
+    </nav>
+    <div class="">
+
         <div>
             <div class="container">
                 <div class="row row-cols-2 palabra">
                     <div class="col">
                         <div class="text-center">
-                            <img id="imagen" class="card-img-top" alt="...">
+                            <img id="imagen" class="imgHero" alt="...">
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col infoHero">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
@@ -84,7 +83,7 @@
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 
-                                <table class="table text-center">
+                                <table class="table table-success table-striped text-center">
                                     <thead>
                                         <tr>
                                             <th scope="col">Nombre</th>
@@ -110,10 +109,10 @@
 
                                         </tr>
                                     </tbody>
-                                </table>                                
+                                </table>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <table class="table text-center">
+                                <table class="table table-success table-striped text-center">
                                     <thead>
                                         <tr>
                                             <th scope="col">Inteligencia</th>
@@ -138,7 +137,7 @@
                             </div>
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                               
-                                <table class="table text-center">
+                                <table class="table table-success table-striped text-center">
                                     <thead>
                                         <tr>
                                             <th scope="col">Nombre</th>
@@ -167,7 +166,6 @@
             </div>
         </div>
     </div>
-
     
     <footer class="footer">
         <div class="row ">

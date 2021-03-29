@@ -14,6 +14,7 @@ function getId(id) {
     //alert(val1);
 
 }
+
 function OneHero() {
 
     const queryString = window.location.search;
@@ -32,6 +33,7 @@ function OneHero() {
 function datosHero(data) {
     var nombre = data.name;
     var idHero = data.id;
+    var idHeroFav = data.id;
     var imagen = data.image.url;
     var genero = data.appearance.gender;
     var raza = data.appearance.race;
@@ -53,6 +55,7 @@ function datosHero(data) {
     var publicador = data.biography.publisher;
     console.log(imagen);
     document.getElementById('idHero').innerHTML = idHero;
+    
     document.getElementById('nombre').innerHTML = nombre;
     document.getElementById('imagen').src = imagen;
     document.getElementById('genero').innerHTML = genero;
@@ -73,6 +76,7 @@ function datosHero(data) {
     document.getElementById('fechaNac').innerHTML = fechaNac;
     document.getElementById('firstShow').innerHTML = firstShow;
     document.getElementById('publicador').innerHTML = publicador;
+    
 }
 
 function getHero(val1) {
@@ -81,6 +85,7 @@ function getHero(val1) {
         .then(data => {
             console.log(data.name);
             datosHero(data);
+            
         })
         .catch(err => {
             console.log(err);

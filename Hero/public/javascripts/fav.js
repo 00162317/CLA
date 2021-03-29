@@ -34,8 +34,8 @@ function favHero() {
 
 function showCardHeroFav(variable,e){
     $(variable).append(
-        '<div class="card" style="width: 18rem;">' +
-        '<div class="card-body">' +
+        '<div class="cardMine">' +
+        '<div class="containerCard">' +
         '<img src="' + e.imagen + '" class="card-img-top" alt="...">' +
         '<h5 class="card-title">' + e.id + '</h5>' +
         '<p class="card-text">' + e.nombre + '</p>' +

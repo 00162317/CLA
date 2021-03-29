@@ -17,14 +17,14 @@ function getId2(id) {
 
 
 function showCardHero(nombreCard, e) {
-    $(nombreCard).append('<div class="card mb-3" style="width: 18rem;">' +
-        '<img src="' + e.image.url + '" class="card-img-top" alt="...">' +
-        '<div class="card-body">' +
-        '<h5 class="card-title">' + e.name + '</h5>' +
-        '<p class="card-text">' + e.appearance.gender + '</p>' +
+    $(nombreCard).append('<div class="cardMine">' +
+        '<div class="containerCard">'+
+        '<img src="' + e.image.url + '" class="cardPicHero" alt="...">' +
+        '<h5>' + e.name + '</h5>' +
+        '<p>' + e.appearance.gender + '</p>' +
         '<button class="btn btn-primary" onclick="getId(' + e.id + ')" >' + '<i class="fas fa-info-circle"></i>' + '</button>' +
         '<button class="btn btn-primary" onclick="getId2(' + e.id + ')" >' + '<i class="far fa-star"></i>' + '</button>' +
-        '</div>' +
+        '</div>'+
         '</div>');
 }
 
