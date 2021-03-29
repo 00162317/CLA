@@ -49,7 +49,7 @@ Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 # Ejecutando las pruebas ⚙️
 
 # Autores ✒️
-Diseñado por Roberto Hernandez
+Diseñado por [Roberto Hernandez](https://www.linkedin.com/in/roberto-hernandez-623a23189/)
 
 # Construido con 🛠️
 1. [Node.js](https://nodejs.org/es/about/)
