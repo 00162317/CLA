@@ -13,8 +13,11 @@ Mas informacion: https://superheroapi.com/index.html
 1. En GitHub, visita la página principal del repositorio.
 2. Dar click en boton Code (color verde).
 3. Presionar la opciones "Download ZIP.
-4. Ubicar la ubicacion de donde se descargo el proyecto.
-5. Descomprimir el proyecto.
+
+![](images/image1.jpg)
+
+5. Ubicar la ubicacion de donde se descargo el proyecto.
+6. Descomprimir el proyecto.
 
 Nota: Es importante tener instalado WinRAR
 https://www.winrar.es/descargas
