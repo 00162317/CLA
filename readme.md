@@ -32,6 +32,7 @@ npm install
 
 ![](images/image3.png)
 
+
 4. Escribir el siguiente comando en cmd.exe
 ```bash
 npm start
