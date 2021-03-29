@@ -9,8 +9,33 @@ La API de superhéroes es una fuente de datos cuantificada y accesible mediante 
 
 ### Clonar repositorio
 
+1. En GitHub, visita la página principal del repositorio.
+2. Sobre la lista de archivos, da clic en  Código.
+3. Copiar la URL: https://github.com/00162317/CLA.git
+4. Escribe git clone, y luego pega la URL que copiaste antes.
+```bash
+$ git clone https://github.com/00162317/CLA.git
+```
+5. Presiona Enter para crear tu clon local
+```bash
+$ git clone https://github.com/00162317/CLA.git
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+
 ### Instalar dependencias
 
+```bash
+npm install
+```
+
+```bash
+npm start
+```
 
 ### Ejecutando las pruebas ⚙️
 
@@ -27,3 +52,4 @@ Diseñado por Roberto Hernandez
 ### Terceros
 -FontAwesome: https://fontawesome.com
 -Bootstrap: https://getbootstrap.com
+-Visual Studio Code: https://code.visualstudio.com
