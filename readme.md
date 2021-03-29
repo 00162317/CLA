@@ -4,7 +4,7 @@ La API de superhéroes es una fuente de datos cuantificada y accesible mediante 
 Mas informacion: https://superheroapi.com/index.html
 
 
-# Instalación 🔧: Descargar repositorio
+# Instalación: Descargar repositorio 🔧
 
 1. En GitHub, visita la página principal del repositorio.
 2. Dar click en boton Code (color verde).
@@ -17,7 +17,7 @@ Mas informacion: https://superheroapi.com/index.html
 
 Nota: Es importante tener instalado [WinRAR](https://www.winrar.es/descargas)
 
-# Instalación 🔧: Instalar dependencias
+# Instalación: Dependencias 🔧
 
 1. Ubicarse en la ruta ...\CLA-master\Hero del proyecto.
 
@@ -50,7 +50,7 @@ Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 # Autores ✒️
 Diseñado por Roberto Hernandez
 
-#Construido con 🛠️
+# Construido con 🛠️
 1. [Node.js](https://nodejs.org/es/about/)
 2. [Express.js](https://expressjs.com/es/)
 3. [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
