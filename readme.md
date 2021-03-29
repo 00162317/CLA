@@ -23,7 +23,7 @@ Nota: Es importante tener instalado [WinRAR](https://www.winrar.es/descargas)
 
 ![](images/image2.png)
 
-2. Borrar la ruta, escribir "cmd" y presionar Enter
+2. Borrar la ruta, escribir "cmd" y presionar Enter. Autoamticamente se abrira cmd.exe
 3. Escribir el siguiente comando en cmd.exe
 
 ```bash
