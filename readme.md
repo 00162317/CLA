@@ -2,6 +2,7 @@
 
 ## ¿Que es SuperHero API? 🦸
 La API de superhéroes es una fuente de datos cuantificada y accesible mediante programación de todos los superhéroes del universo del cómic. Hemos tomado todas las cosas y las hemos reunido en una forma que es más fácil de consumir con software. Luego creamos una API para que puedas consumirla sin problemas.
+Mas informacion: https://superheroapi.com/index.html
 
 ## Pre-requisitos 📋
 
