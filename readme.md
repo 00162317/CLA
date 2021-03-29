@@ -23,7 +23,7 @@ Nota: Es importante tener instalado [WinRAR](https://www.winrar.es/descargas)
 
 ![](images/image2.png)
 
-2. Borrar la ruta, escribir "cmd" y presionar Enter
+2. Borrar la ruta, escribir "cmd" y presionar Enter. Autoamticamente se abrira cmd.exe
 3. Escribir el siguiente comando en cmd.exe
 
 ```bash
@@ -49,14 +49,15 @@ Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 # Ejecutando las pruebas ⚙️
 
 # Autores ✒️
-Diseñado por Roberto Hernandez
+Diseñado por [Roberto Hernandez](https://www.linkedin.com/in/roberto-hernandez-623a23189/)
 
 # Construido con 🛠️
 1. [Node.js](https://nodejs.org/es/about/)
 2. [Express.js](https://expressjs.com/es/)
 3. [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-4. [Html](https://www.w3schools.com/html/)
-5. [CSS3](https://www.w3schools.com/css/)
+4. [jQuery](https://jquery.com)
+5. [Html](https://www.w3schools.com/html/)
+6. [CSS3](https://www.w3schools.com/css/)
 
 ### Terceros
 1. [FontAwesome](https://fontawesome.com)
