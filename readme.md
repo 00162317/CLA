@@ -14,10 +14,10 @@ Mas informacion: https://superheroapi.com/index.html
 2. Dar click en boton Code (color verde).
 3. Presionar la opciones "Download ZIP.
 
-![](images/image1.jpg)
+![](images/image1.png)
 
-5. Ubicar la ubicacion de donde se descargo el proyecto.
-6. Descomprimir el proyecto.
+4. Ubicar la ubicacion de donde se descargo el proyecto.
+5. Descomprimir el proyecto.
 
 Nota: Es importante tener instalado WinRAR
 https://www.winrar.es/descargas
