@@ -42,4 +42,18 @@
     display: block;
     transform: none;
     color: #fff;
-    }
+}
+
+.footer{
+    background-color: #1d7564;
+    color: #fff;
+    padding: 3.5em;
+    font-family: 'Playfair Display', arial;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.parrafo a{
+    color: #06060e;
+}
