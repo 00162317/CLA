@@ -10,6 +10,8 @@ Mas informacion: https://superheroapi.com/index.html
 
 ### Clonar repositorio
 
+![](images/image1.png)
+
 1. En GitHub, visita la página principal del repositorio.
 2. Sobre la lista de archivos, da clic en  Código.
 3. Copiar la URL: https://github.com/00162317/CLA.git
