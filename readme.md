@@ -18,8 +18,7 @@ Mas informacion: https://superheroapi.com/index.html
 4. Ubicar la ubicacion de donde se descargo el proyecto.
 5. Descomprimir el proyecto.
 
-Nota: Es importante tener instalado WinRAR
-https://www.winrar.es/descargas
+Nota: Es importante tener instalado [WinRAR](https://www.winrar.es/descargas)
 
 ## Instalar dependencias
 
@@ -47,8 +46,7 @@ http://localhost:3000
 6. Si todo salio exitoso, se mostrara la pagina principal.
 
 
-Nota: Es importante tener instalado Node.js
-https://nodejs.org/es/
+Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 
 ### Ejecutando las pruebas ⚙️
 
@@ -56,13 +54,13 @@ https://nodejs.org/es/
 Diseñado por Roberto Hernandez
 
 ### Construido con 🛠️
-1. Node.js: https://nodejs.org/es/about/
-2. Express.js: https://expressjs.com/es/
-3. Javascript: https://developer.mozilla.org/es/docs/Web/JavaScript
-4. Html: https://www.w3schools.com/html/
-5. CSS3: https://www.w3schools.com/css/
+1. [Node.js](https://nodejs.org/es/about/)
+2. [Express.js](https://expressjs.com/es/)
+3. [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+4. [Html](https://www.w3schools.com/html/)
+5. [CSS3](https://www.w3schools.com/css/)
 
 ### Terceros
-1. FontAwesome: https://fontawesome.com
-2. Bootstrap: https://getbootstrap.com
-3. Visual Studio Code: https://code.visualstudio.com
+1. [FontAwesome](https://fontawesome.com)
+2. [Bootstrap](https://getbootstrap.com)
+3. [Visual Studio Code](https://code.visualstudio.com)
