@@ -53,7 +53,7 @@ function getSearchData() {
             console.log(err);
 
             // Displaying to the UI
-            document.getElementById('output2').innerHTML = err;
+            location.href='./error';
         });
 }
 

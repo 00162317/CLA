@@ -2,22 +2,9 @@ window.onload = () =>{
     favHero();
 }
 
-
-function getId2(id) {
-    console.log(id);
-    let val1 = id;
-    location.href = './fav?id=' + val1;
-    //alert(val1);
-}
-
 function favHero() {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-
-    const id = urlParams.get('id');
-    console.log(id);
-
-    fetch('https://www.superheroapi.com/api.php/3945365972188670/' + id)
+    
+    fetch('https://www.superheroapi.com/api.php/3945365972188670/' + 3)
         .then(res => res.json())
         .then(data => {
             console.log(data.name);
@@ -31,7 +18,6 @@ function favHero() {
 
 }
 
-
 function showCardHeroFav(variable,e){
     $(variable).append(
         '<div class="cardMine">' +
@@ -43,6 +29,7 @@ function showCardHeroFav(variable,e){
         '</div>'
     );
 }
+
 
 function localStorageHero(data) {
 
@@ -60,13 +47,10 @@ function localStorageHero(data) {
     if (posLista > -1) {
 
         favoritos.splice(posLista, 1);
-    } else {
-
-        favoritos.push(datos);
     }
 
     localStorage.setItem("favoritos", JSON.stringify(favoritos));
-    //window.localStorage.clear();
+
 
     for (var i = 0; i < favoritos.length; i++) {
         console.log(favoritos[i]);
