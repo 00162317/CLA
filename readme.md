@@ -25,12 +25,18 @@ https://www.winrar.es/descargas
 ### Instalar dependencias
 
 1. Ubicarse en la ruta ...\CLA-master\Hero del proyecto.
+
+![](images/image2.png)
+
 2. Borrar la ruta, escribir "cmd" y presionar Enter
 3. Escribir el siguiente comando en cmd.exe
 
 ```bash
 npm install
 ```
+
+![](images/image3.png)
+
 4. Escribir el siguiente comando en cmd.exe
 ```bash
 npm start
