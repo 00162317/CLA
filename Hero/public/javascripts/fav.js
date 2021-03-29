@@ -49,7 +49,7 @@ function localStorageHero(data) {
     var datos = {
         id: data.id,
         nombre: data.name,
-        imagen: data.image.url
+        imagen: data.image.url,
     };
     console.log("HEY: " + datos.id);
 
