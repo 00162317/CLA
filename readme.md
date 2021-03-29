@@ -25,7 +25,8 @@ $ git clone https://github.com/00162317/CLA.git
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
-
+Nota: Es importante tener instalado Git
+https://git-scm.com/downloads
 
 ### Instalar dependencias
 
@@ -43,13 +44,13 @@ npm start
 Diseñado por Roberto Hernandez
 
 ### Construido con 🛠️
--Node.js: https://nodejs.org/es/about/
--Express.js: https://expressjs.com/es/
--Javascript: https://developer.mozilla.org/es/docs/Web/JavaScript
--Html: https://www.w3schools.com/html/
--CSS3: https://www.w3schools.com/css/
+1. Node.js: https://nodejs.org/es/about/
+2. Express.js: https://expressjs.com/es/
+3. Javascript: https://developer.mozilla.org/es/docs/Web/JavaScript
+4. Html: https://www.w3schools.com/html/
+5. CSS3: https://www.w3schools.com/css/
 
 ### Terceros
--FontAwesome: https://fontawesome.com
--Bootstrap: https://getbootstrap.com
--Visual Studio Code: https://code.visualstudio.com
+1. FontAwesome: https://fontawesome.com
+2. Bootstrap: https://getbootstrap.com
+3. Visual Studio Code: https://code.visualstudio.com
