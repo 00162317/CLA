@@ -49,6 +49,35 @@ Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 
 # Ejecutando las pruebas ⚙️
 
+1. Página principal. URL: http://localhost:3000
+
+![](images/image5.png)
+
+2.  Pagina principal. URL: http://localhost:3000
+
+![](images/image6.png)
+
+Figura a: Redirecciona a [pagina principal](http://localhost:3000)
+Figura b: 
+Figura c: Para ver los heroes favoritos. Redirecciona a [favoritos](http://localhost:3000/allFav)
+Figura d: Campo para escribir el nombre de heros y boton para realizar la busqueda.
+
+3. Buscar heroe por su nombre. Al dar click realizara la busqueda
+
+![](images/image7.png)
+
+4. Resultado de busqueda de heroe. Cada tarjeta posee dos botones: 1. Informacion del heroe. 2. Agregar heroe a favoritos.
+
+![](images/image8.png)
+
+5.  Al dar click en boton informacion del heroe mostrara la siguiente informacion. Separado por bloques: Apparence, powerstats, biography
+
+![](images/image9.png)
+
+6.  Al dar click en boton favoritos lo agregara a una lista de favoritos
+
+![](images/image10.png)
+
 # Autores ✒️
 Diseñado por [Roberto Hernandez](https://www.linkedin.com/in/roberto-hernandez-623a23189/)
 
