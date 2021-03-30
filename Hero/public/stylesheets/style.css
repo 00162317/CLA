@@ -4,6 +4,13 @@ html{
     width: 100%;
 }
 
+.btnDeleteFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
 /*-----------------------------------------------------------------------------------------------*/
 /*NAV*/
 
@@ -81,6 +88,7 @@ html{
     padding: 2em;
     margin-top: 3.5rem;
 }
+
 .crds{
     width: 100%;
     display: flex;
