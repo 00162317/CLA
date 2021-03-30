@@ -58,7 +58,7 @@ Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 ![](images/image6.png)
 
 Figura a: Redirecciona a [pagina principal](http://localhost:3000) .
-Figura b: .
+Figura b: Redirecciona a [ver top 12](http://localhost:3000/allHero).
 Figura c: Para ver los heroes favoritos. Redirecciona a [favoritos](http://localhost:3000/allFav) .
 Figura d: Campo para escribir el nombre de heros y boton para realizar la busqueda.
 
@@ -77,6 +77,8 @@ Figura d: Campo para escribir el nombre de heros y boton para realizar la busque
 6.  Al dar click en boton favoritos lo agregara a una lista de favoritos
 
 ![](images/image10.png)
+
+Nota: La URL que maneja dicha [API](https://superheroapi.com/index.html) es dependiente de un "id" que en este caso es el "id" del superhero. Eso significa que realizar un "getAll" de todos los superheros se vuelve un poco complejo. No quiere decir que sea imposible, porque si se puede realizar pero no es un trabajo eficiente
 
 # Autores ✒️
 Diseñado por [Roberto Hernandez](https://www.linkedin.com/in/roberto-hernandez-623a23189/)
