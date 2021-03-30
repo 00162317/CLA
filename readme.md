@@ -57,9 +57,9 @@ Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 
 ![](images/image6.png)
 
-Figura a: Redirecciona a [pagina principal](http://localhost:3000)
-Figura b: 
-Figura c: Para ver los heroes favoritos. Redirecciona a [favoritos](http://localhost:3000/allFav)
+Figura a: Redirecciona a [pagina principal](http://localhost:3000) .
+Figura b: .
+Figura c: Para ver los heroes favoritos. Redirecciona a [favoritos](http://localhost:3000/allFav) .
 Figura d: Campo para escribir el nombre de heros y boton para realizar la busqueda.
 
 3. Buscar heroe por su nombre. Al dar click realizara la busqueda
