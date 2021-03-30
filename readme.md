@@ -55,12 +55,13 @@ Nota: Es importante tener instalado [Node.js](https://nodejs.org/es/)
 
 2.  Pagina principal. URL: http://localhost:3000
 
-![](images/image6.png)
-
 Figura a: Redirecciona a [pagina principal](http://localhost:3000) .
 Figura b: Redirecciona a [ver top 12](http://localhost:3000/allHero).
 Figura c: Para ver los heroes favoritos. Redirecciona a [favoritos](http://localhost:3000/allFav) .
 Figura d: Campo para escribir el nombre de heros y boton para realizar la busqueda.
+
+![](images/image6.png)
+
 
 3. Buscar heroe por su nombre. Al dar click realizara la busqueda
 
